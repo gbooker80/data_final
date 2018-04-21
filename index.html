@@ -47,25 +47,46 @@
 	
 </head>
 <body style="background-color:lightblue">
-	<!-- Map Element 
-	================================================= -->
-	<div class="map-container">  
-	    <div class="row" style="padding-top: 5px;">
-	        <div class="col-md-8" style="padding-top:2px; padding-right: 0px;">  
-	            <div id="map"></div>
-	        </div>
-	        <div class="row">
-				<!-- INSERT INTERACTIVE PIE CHART -->
-				<div class="col-md-4" style="border: 1px solid black;">
-					<div id="pie-chart"></div>
-				</div>
-				<!-- INSERT INTERACTIVE LINE CHART -->
-				<div class="col-md-4" style="border: 1px solid black;">
-					<div id="line-chart"></div>
-				</div>
+	
+		<div class="container-fluid">
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-7">
+
+            <div class="panel panel-default">
+              <div class="panel-body">
+                <h2>SF Bike Sharing Analysis</h2>
+                <hr>
+                <img class = "img-responsive" src="images/bkshare.jpg" style="width:60%; float: left; margin: 5px;" alt="first image" >
+
+              </div>
+            </div>
+
+        </div>
+        <div class="col-md-3">
+
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    
+                  <h2>Visualizations</h2>
+                  <hr>
+                  <div class="row" style = "padding-bottom: 10px">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="temperature.html"><img class = "img img-responsive" src="images/temperature.png" style="width:100%" alt=""></a></div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="humidity.html"><img class = "img img-responsive" src="images/humidity.png" style="width:100%" alt=""></a></div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="cloudiness.html"><img class = "img img-responsive" src="images/cloudiness.png" style="width:100%" alt=""></a></div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="windspeed.html"><img class = "img img-responsive" src="images/windspeed.png" style="width:100%" alt=""></a></div>
+                  </div>
+              
+              </div>
+
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+
 			</div>
-	    </div>
-	</div>
+		</div>
 	<!-- Our JS -->
 	<script type="text/javascript" src="../static/js/layers.js"></script>
 </body>
